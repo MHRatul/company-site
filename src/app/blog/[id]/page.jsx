@@ -3,7 +3,11 @@ import styles from './page.module.css'
 
 const BlogPost = () => {
   return (
-    <div className={styles.container}>BlogPost</div>
+    <div className={styles.container}>
+      <div className={styles.top}>
+        
+      </div>
+    </div>
   )
 }
 
