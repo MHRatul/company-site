@@ -23,7 +23,7 @@ export async function generateMetadata({ params }) {
     title: post.title,
     description: post.desc,
   };
-}
+};
 
 const BlogPost = async ({ params }) => {
   const data = await getData(params.id);
